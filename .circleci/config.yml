@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  test:
+  build:
     docker: # An executor, defines the underlying technology or environment in which to run a job
       - image: cimg/python:3.9.2
     steps:
